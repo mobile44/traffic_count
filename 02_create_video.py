@@ -5,7 +5,7 @@ import numpy as np
 from os.path import isfile, join
 import matplotlib.pyplot as plt
 
-pathIn = "images_video/"
+pathIn = "data/traffic/"
 
 # specify video name
 pathOut = 'videos/count_traffic.avi'
