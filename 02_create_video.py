@@ -16,7 +16,7 @@ fps = 14.0
 frame_array = []
 files = [f for f in os.listdir(pathIn) if isfile(join(pathIn, f))]
 
-files.sort(key=lambda f: int(re.sub('\D', '', f)))
+#files.sort(key=lambda f: int(re.sub('\D', '', f)))
 
 for i in range(len(files)):
     filename=pathIn + files[i]
